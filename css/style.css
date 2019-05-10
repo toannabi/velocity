@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background: url("../img/bg-header-1.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.menuhead{
+    background-color: transparent !important;
+}
+.logo{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    background: #ec6952;
+    padding: 20px 38px;
+    position: relative;
+    top: -8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 700;
+    color: white!important;
+    text-decoration: none!important;
+}
+.menuhead.action{
+    height: 80px;
+    top: 0;
+    background-color: #fff!important;
+    width: 100%;
+}
+.menuhead.action .navbar-collapse .menuright a{
+    color: #666;
+}
+.menuhead.action .navbar-collapse .menuright a.btn {
+    background-color: #ec6952!important;;
+    border-color: transparent;
+    color: #fff;
+}
+.menuhead.action .logo{
+    background: #fff;
+    color: #ec6952!important;
+}
+.top .menuright a.nav-link{
+    padding: 28px 23px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    color: #e6e6e6;
+    transition: 0.4s;
+}
+.top .menuright a.nav-link:hover{
+    color: #ec6952;
+}
+.top .menuright li.active a.nav-link{
+    color: #ec6952;
+}
+.top .menuright a.btn-secondary{
+    background-color: transparent;
+    height: 50px;
+    padding: 15px;
+    border: 2px solid white;
+    position: relative;
+    top: 12px;
+    transition: 0.4s;
+}
+.top .menuright a.btn-secondary:hover{
+    background-color: #ec6952;
+    color: #fff;
+    border-color: transparent;
+}
+.banner h1{
+    color: #dbdbdb;
+    padding-top: 253px;
+    
+}
+.banner p{
+    color: gray;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 48px;
+}
+a.logo2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 14px 60px;
+    background: #ec6952;
+}
+@media screen and (max-width: 767px){
+    .fixed-top{
+        position: absolute;
+    }
+    .logo{
+        margin-left: 90px;
+    }
+    .top .menuright {
+        background-color: darkslategrey;
+    }
+    .top .menuright a.btn-secondary{
+        top: 0px;
+    }
+    .banner h1{
+        padding-top: 125px;
+        font-size: 37px;
+    }
+    .banner a{
+        padding: 14px 5px;
+    }
+    .promote .logo{
+    margin-left: 0px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .top .fixed-top{
+        position: relative;
+    }
+    .top .menuright a.nav-link{
+        padding: 15px 10px;
+    }
+    .top .menuright a.btn-secondary{
+        top: -2px;
+    }
+    .say-icon i.fas.fa-quote-left{
+        left: -20px;
+    }
+}
+.howcan{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 50px;
+}
+.howcan .row.td{
+    margin-bottom: 100px;
+}
+.row.td h2{
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    color: #444;
+}
+.row.td small{
+    color: #999;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.howtop h4{
+    font-size: 26px;
+    color: #4a6781;margin-top: 0;
+}
+.howtop p{
+    margin-bottom: 60px;
+    color: #444;
+    font-size: 16;
+}
+.blockquote{
+    background: #f5f5f5;
+    border-left: 4px solid #e8e8e8;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blockquote p{
+    line-height: 1.5;
+    font-style: italic;
+    color: #666;
+    font-size: 16px;
+}
+.blockquote footer{
+    color: #999;
+    font-size: 13px;
+}
+.row.s5 h5{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #444;
+}
+.row.s5 a{
+    background-color: transparent;
+    border: 2px solid #ec6952;
+    color: #ec6952;
+    padding: 8px 30px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.row.s5 a:hover{
+    color: #fff;
+    background-color: #ec6952;
+}
+.say{
+    background: #f5f5f5;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.say .control li{
+    background-color: #ccc;
+    position: relative;
+    top: 70px;
+}
+.say .control li.active{
+    background-color: #f19180;
+}
+.say h3{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    color: #444;
+}
+.say-icon i.fas.fa-quote-left{
+    color: #ef7d69;
+    font-size: 22px;
+    position: relative;
+    left: -47px;
+}
+.say-content p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #444;
+}
+.orange{
+    color: #ec6952;
+}
+.say-content p:last-child{
+    font-size: 16px;
+    color: #666;
+}
+.coverage{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Roboto Slab', serif;
+}
+.coverage h3{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    color: #444;
+}
+.coverage img{
+    opacity: 0.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 80px;
+}
+.coverage h5{
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.coverage .orange:hover{
+    color: #ec6952;
+}
+.promote{
+    background: url('../img/bg-footer-1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.promote h2{
+    font-size: 36px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.promote p{
+    color: #fff;
+    font-size: 15px;
+}
+.footer{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 50px;
+    background-color: #253340;
+}
+.footer h3{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: .9;
+    
+}
+.list-unstyle{
+    list-style: none;
+}
+.list-unstyle li{
+    margin-bottom: 10px;
+}
+.list-unstyle li a{
+    font-size: 14px;
+    color: #7d9ab4;
+}
+.icon-footer li{
+    float: left;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+.icon-footer a{
+    font-size: 25px!important;
+    color: #fff;
+    opacity: 0.7;
+}
+.clearfix p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    clear: both;
+    color: #fff;
+    opacity: 0.5;
+}
+.sub{
+    background-color: #5d80a1;
+    border-color: transparent;
+    margin-left: 5px;
+}
+.contactfooter h3{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px
+}
+.contactfooter button{
+    text-align: left;
+    width: 230px;
+    font-size: 14px;
+    background: none;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.contactfooter i.fas{
+    color: #fff;
+    opacity: .5;
+    position: relative;
+    top: 25px;
+}
+.contactfooter p{
+    color: #fff;
+    opacity: .5;
+    padding-left: 25px;
+}
+.footer .coppyright{
+    background: #1c2630;
+    color: #b3b2b2;
+    font-size: 14px;
+    padding-top: 17px;
+}
